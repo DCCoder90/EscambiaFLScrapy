@@ -1,0 +1,258 @@
+{
+  "properties": {
+    "case": {
+      "properties": {
+        "totalfeesdue": {
+          "type": "string"
+        },
+        "charges": {
+          "type": "array"
+        },
+        "judge": {
+          "type": "string"
+        },
+        "uniformcasenum": {
+          "type": "string"
+        },
+        "agencyreportnum": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "clerkfiledate": {
+          "type": "string"
+        },
+        "courttype": {
+          "type": "string"
+        },
+        "finances": {
+          "type": "array"
+        },
+        "id": {
+          "type": "number"
+        },
+        "casenum": {
+          "type": "string"
+        },
+        "casetype": {
+          "type": "string"
+        },
+        "dockets": {
+          "items": {
+            "properties": {
+              "entry": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string"
+              }
+            },
+            "type": "object",
+            "required": [
+              "entry",
+              "date"
+            ]
+          },
+          "type": "array"
+        },
+        "reciepts": {
+          "type": "array"
+        },
+        "statusdate": {
+          "type": "string"
+        },
+        "agency": {
+          "type": "string"
+        }
+      },
+      "type": "object",
+      "required": [
+        "totalfeesdue",
+        "charges",
+        "judge",
+        "agency",
+        "agencyreportnum",
+        "uniformcasenum",
+        "clerkfiledate",
+        "casetype",
+        "finances",
+        "id",
+        "courttype",
+        "casenum",
+        "dockets",
+        "status",
+        "reciepts",
+        "statusdate"
+      ]
+    },
+    "plaintiff": {
+      "properties": {
+        "lname": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "race": {
+          "type": "string"
+        },
+        "eye": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "hair": {
+          "type": "string"
+        },
+        "height": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "id": {
+          "type": "number"
+        },
+        "fname": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "mname": {
+          "type": "string"
+        },
+        "ssn": {
+          "type": "string"
+        },
+        "weight": {
+          "type": "string"
+        },
+        "other": {
+          "type": "string"
+        },
+        "driverlicense": {
+          "type": "string"
+        }
+      },
+      "type": "object",
+      "required": [
+        "phone",
+        "eye",
+        "address",
+        "hair",
+        "ssn",
+        "lname",
+        "race",
+        "driverlicense",
+        "height",
+        "dob",
+        "id",
+        "fname",
+        "gender",
+        "mname",
+        "other",
+        "weight"
+      ]
+    },
+    "_type": {
+      "type": "string"
+    },
+    "_key": {
+      "type": "string"
+    },
+    "defendant": {
+      "properties": {
+        "lname": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "race": {
+          "type": "string"
+        },
+        "eye": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "hair": {
+          "type": "string"
+        },
+        "height": {
+          "type": "string"
+        },
+        "dob": {
+          "type": "string"
+        },
+        "id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "number"
+            }
+          ]
+        },
+        "fname": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "mname": {
+          "type": "string"
+        },
+        "ssn": {
+          "type": "string"
+        },
+        "weight": {
+          "type": "string"
+        },
+        "other": {
+          "type": "string"
+        },
+        "driverlicense": {
+          "type": "string"
+        }
+      },
+      "type": "object",
+      "required": [
+        "phone",
+        "eye",
+        "address",
+        "hair",
+        "ssn",
+        "lname",
+        "race",
+        "driverlicense",
+        "height",
+        "dob",
+        "id",
+        "fname",
+        "gender",
+        "mname",
+        "other",
+        "weight"
+      ]
+    },
+    "_ts": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "case",
+    "plaintiff",
+    "_ts",
+    "_type",
+    "_key",
+    "defendant"
+  ],
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema"
+}

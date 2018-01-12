@@ -1,0 +1,12 @@
+setup.py
+escambiaflpublic/__init__.py
+escambiaflpublic/items.py
+escambiaflpublic/pipelines.py
+escambiaflpublic/settings.py
+escambiaflpublic/spiders/__init__.py
+escambiaflpublic/spiders/spider.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
